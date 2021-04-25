@@ -1,5 +1,7 @@
 = Distributed Lock
 
+https://stackoverflow.com/questions/54875853/java-distributed-jpa-lock-for-reservation
+
 Distributed lock ensures your method cannot be run in parallel from multiple JVMs (cluster of servers, microservices, ...).
 It uses a common store to keep track of used locks and your method needs to acquire one or more locks to run.
 
